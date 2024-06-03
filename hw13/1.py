@@ -15,7 +15,7 @@ win.setWindowTitle('PyQtGraph: Синус и Косинус')
 plot = win.addPlot(title="Графики синуса и косинуса")
 
 # Генерируем данные
-x = np.linspace(0, 2 * np.pi, 100)  # хотя бы 50 точек
+x = np.linspace(0, 2 * np.pi, 100)  # 100 точек
 y_sin = np.sin(x)
 y_cos = np.cos(x)
 
